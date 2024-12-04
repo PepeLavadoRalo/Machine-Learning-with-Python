@@ -43,8 +43,7 @@ Install the required dependencies:
 
 You can install the required dependencies using pip:
 
-```
-bash
+```bash
 pip install -r requirements.txt
 ```
 
