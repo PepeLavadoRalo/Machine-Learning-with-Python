@@ -35,14 +35,12 @@ If you don't have these libraries, you can install them using `pip`.
 
 1. Clone the repository to your local machine:
 
-   ```bash
-   git clone https://github.com/your-username/book-recommendation-system.git
-   cd book-recommendation-system
-  ```
+```bash
+git clone https://github.com/your-username/book-recommendation-system.git
+cd book-recommendation-system
+```
 Install the required dependencies:
-
 You can install the required dependencies using pip:
-
 ```bash
 pip install -r requirements.txt
 ```
