@@ -70,7 +70,7 @@ pred_text = "how are you doing today?"
 prediction = predict_message(pred_text)
 print(prediction)  # This will print the probability and label ('ham' or 'spam')
 ```
-## This will output a prediction for the message "how are you doing today?", indicating whether the message is classified as "ham" or "spam" along with the corresponding probability.
+This will output a prediction for the message "how are you doing today?", indicating whether the message is classified as "ham" or "spam" along with the corresponding probability.
 
 ## Sections of the Code
 
@@ -102,7 +102,7 @@ The results are printed out after training.
 test_loss, test_accuracy = model.evaluate(X_test, y_test)
 print(f"Test accuracy: {test_accuracy}")
 ```
-## The model's accuracy on the test data is shown as a percentage, which helps gauge its performance.
+The model's accuracy on the test data is shown as a percentage, which helps gauge its performance.
 
 ## Conclusion
 This project demonstrates the power of neural networks for binary text classification, using a simple yet effective model. By leveraging TensorFlow and scikit-learn, we are able to preprocess the data, build a model, and make predictions on unseen text data.
