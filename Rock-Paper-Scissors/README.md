@@ -95,7 +95,7 @@ Player 1 win rate: 64.63%
 ## Unit Test Output
 Running Test-Module.py produces:
 
-```diff
+```python
 Testing game against quincy...
 Testing game against abbey...
 Testing game against kris...
@@ -108,8 +108,11 @@ OK
 ```
 ## Future Improvements
 Experiment with more complex predictive models (e.g., neural networks).
+
 Incorporate reinforcement learning for self-improving strategies.
+
 Add additional opponent bots with more advanced strategies.
+
 Extend the interactive game to include score tracking and enhanced UI.
 
 
