@@ -38,8 +38,6 @@ Unit test suite to evaluate the AI:
 - Ensures the custom AI achieves at least a 60% win rate against all predefined bots over 1000 games.
 - Uses Python's `unittest` framework.
 
----
-
 ## Getting Started
 
 ### Prerequisites
@@ -48,15 +46,15 @@ Unit test suite to evaluate the AI:
 
 ### Running the AI
 1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-  ```
+```bash
+git clone <repository-url>
+cd <repository-directory>
+```
 2. Run the predefined matches:
 ```bash
 python Main.py
 ```
-## Instructions for Customization
+This simulates 1000 games between the custom AI and each predefined bot.
 
 3. Uncomment lines in `Main.py` to:
 - Play interactively against a bot (`human` vs. `abbey`).
